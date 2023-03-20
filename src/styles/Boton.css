@@ -1,0 +1,13 @@
+.botones{
+    padding-top: 4.5em;
+    width: 100%;
+    background-color: azure;
+}
+
+.boton1{
+    background-color: rgba(41, 10, 216, 0.753);
+}
+
+.boton2{
+    background-color: rgba(202, 162, 245, 0.758);
+}

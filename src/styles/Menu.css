@@ -1,0 +1,26 @@
+
+
+.contenedor-principal{
+    width: 100%;
+    position: fixed;
+    z-index: 500;    
+    display: flex;
+    padding-left: 2em ;
+    background-color: rgb(253, 253, 253);
+   
+
+    
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.itene{
+   
+    padding: 20px;
+}
+

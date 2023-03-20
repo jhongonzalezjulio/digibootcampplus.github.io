@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Kanit:wght@400;500&family=Oswald&family=Press+Start+2P&family=Rubik+Distressed&family=Rubik+Iso&family=Signika+Negative:wght@300;400;600;700&family=Tourney:ital,wght@0,200;0,300;1,100&display=swap');
+
+.contenedormain{
+    height: 100vh;
+    padding: 5em;
+  
+}
+
+@keyframes fondo-anim{
+    0%{background-position: left;} /*por defecto*/
+    100%{background-position: right;}
+  }
+
+.namebootcamp {
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    padding: 1.5em;
+    text-shadow: 1px 2px 10px rgb(192, 192, 247);
+
+}
+
+.contenedortextobootcamp {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bootcamp {
+    width: 600px;
+    margin: 2em;
+}
+
+
+
+.bootcampimagen {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 110px;
+    display: flex;
+    border-radius: 50px;
+    background-color: rgba(10, 10, 10, 0.785);
+    color: #ffffff;
+    margin: 1em;
+    box-shadow: 0 5px 15px;
+}
+
+.bootcampimagen:hover{
+    transform: scale(1.1 );
+    box-shadow: 0 0 15px #ebf0f3;
+}
+.imagenboot {
+   background-color: aliceblue;
+   border-radius: 50%;
+    padding: 0.1em;
+    margin: 0.2em;
+    width: 100px;
+    height: 100px;
+}
+
+.tituloboot {
+    padding-left: 1.5em;
+    padding-top: 1em;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.detodo{
+    border-radius: 100px;
+    --gradient:  linear-gradient(to right, #f1bcc8, #4beb45, #a0c7f6, #24f399, #54c1f0, #b1eb46, #9156ef, #4c74ee, #56c174);
+    font-family: sans-serif;
+    color: #222;
+      
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: fondo-anim 15s infinite alternate;
+}

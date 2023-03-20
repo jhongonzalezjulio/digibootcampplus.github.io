@@ -1,0 +1,40 @@
+.cajitadelpie {
+  height: 30vh;
+  display: flex;
+}
+
+.part1 {
+  box-shadow: 0 0 16px rgb(26, 25, 25);
+  height: 100%;
+  padding: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: black;
+}
+
+.lodigi {
+  width: 150px;
+}
+
+.digit {
+
+}
+
+
+.gidi {
+  color: aliceblue;
+}
+
+.copy {
+  color: aliceblue;
+}
+
+.part2 {
+  width: 50%;
+  height: 100%;
+  background-image: url('../imagenes/mandala.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}

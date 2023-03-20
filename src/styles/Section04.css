@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Kanit:wght@400;500&family=Oswald&family=Press+Start+2P&family=Rubik+Distressed&family=Rubik+Iso&family=Signika+Negative:wght@300;400;600;700&family=Tourney:ital,wght@0,200;0,300;1,100&display=swap');
+
+
+.contenedor-section04{
+    height: 100vh;
+    width: 100%;
+}
+
+.texto-modelo{
+    padding: 5em;
+    height: 30%;
+    background-color: rgb(41, 46, 46);
+
+}
+
+.textomodel{
+    text-shadow: 1px 2px 6px rgb(47, 103, 255);
+    color: aliceblue;
+    font-size: 7em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.contenedor-credenciales{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(208, 235, 235, 0.301);
+}
+
+
+.credencial{
+    padding: 50px;
+   
+}
